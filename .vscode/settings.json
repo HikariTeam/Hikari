@@ -1,0 +1,7 @@
+{
+  "npm.enableScriptExplorer": true,
+  "yarn.runInTerminal": true,
+  "bracketPairColorizer.colorMode": "Independent",
+  "bracketPairColorizer.forceIterationColorCycle": true,
+  "bracketPairColorizer.forceUniqueOpeningColor": true,
+}

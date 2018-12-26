@@ -1,0 +1,33 @@
+{
+  "name": "hikari",
+  "version": "2.0",
+  "repository": "git@gitlab.com:jpsl00/hikari-bot.git",
+  "scripts": {
+    "dev-watch": "nodemon --exec yarn run dev",
+    "dev": "node --require dotenv/config --inspect index.js"
+  },
+  "author": "jpsl00",
+  "contributors": [
+    "nitro",
+    "Nameless",
+    "PillGP"
+  ],
+  "license": "GPL-3.0",
+  "private": true,
+  "devDependencies": {
+    "dotenv": "^6.2.0",
+    "eslint": "^5.9.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^8.0.0",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "nodemon": "^1.18.7"
+  },
+  "dependencies": {
+    "discord-akairo": "1Computer1/discord-akairo#master",
+    "discord.js": "discordjs/discord.js#master",
+    "i18next": "^13.0.0",
+    "i18next-node-fs-backend": "^2.1.1"
+  }
+}
